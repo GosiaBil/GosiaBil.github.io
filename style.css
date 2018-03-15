@@ -1,0 +1,141 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto, sans-serif'
+	font-weight: 100;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 940px;
+	padding: 0 10px;
+}
+
+
+
+.header {
+	background: url(ian.jpg); no-repeat center center;
+	background-size: cover;
+	height: 900px;
+	width: 100%;
+	text-align: center;
+
+}
+
+.header .container {
+	position: relative;
+	top: 150px;
+}
+
+.header h1 {
+	color: #fff;
+	line-height: 100px;
+	font-size: 80px;
+	margin-top: 0px;
+	margin-bottom: 50px;
+	text-transform: uppercase;
+
+}
+
+h2, p {
+	font-family: Arial;
+}
+
+
+
+
+.header p {
+	color: #fff;
+	font-size: 500;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+
+.btn {
+	color: #fff;
+	border: solid 1px;
+	padding: 10px 40px;
+	text-decoration: none;
+	transition: background .5s;
+
+}
+
+.nav {
+	background: #000;
+	height: 80px;
+	width: 100%;
+}
+
+.nav ul {
+	height: 80px;
+	list-style: none;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.nav ul li {
+	color: #fff;
+	display: inline-block;
+	height: 80px;
+	line-height: 80px;
+	list-style: none;
+	padding: 0 9%;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+.btn:hover, .nav ul li:hover {
+	background: #117bff;
+	cursor: pointer;
+	
+
+}
+
+.main .container {
+	margin: 80px auto;
+}
+
+.main img {
+	float: left;
+	margin: 50px 80px 50px 0;
+}
+
+.jumbotron .container {
+	position: relative;
+	top: 160px;
+}
+.jumbotron {
+	background: url(andrew.jpg); no-repeat center center;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+	text-align: right;
+	opacity: 1; 
+
+}
+
+.jumbotron p {
+	color: black;
+}
+
+.jumbotron h2 {
+	color: #black;
+}
+
+.footer p {
+	color: black;
+	font-size: 14px, 
+	height: 80px;
+	line-height: 80px;
+	margin: 0;
+}
+
+
